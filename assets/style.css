@@ -32,6 +32,7 @@
   nav {
     display: flex;
     background-color: var(--tan);
+    margin-bottom: 20px;
   }
   
   nav a {
@@ -42,7 +43,7 @@
   }
   
   nav a:hover {
-    background-color: var(--white);
+    background-color: tan;
     color: var(--dark-blue);
   }
   
@@ -71,6 +72,7 @@
     list-style: none;
     position: relative;
     padding: 3px 0 2px 25px;
+    font-size: 24px;
   }
   
   ul li::before {
@@ -87,6 +89,9 @@
 
 .bioImage {
     margin-left: 30px;
+    margin-bottom: 20px;
+    /* max-width: fit-content;
+    max-height: fit-content; */
 }
 
 .card {
@@ -105,7 +110,7 @@
 .contactList {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 48%;
 }
 
 .cardDisplay {
